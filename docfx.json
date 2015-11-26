@@ -1,0 +1,35 @@
+﻿{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [ "**/*.sln" ],
+          "exclude": [ "**/bin/**", "**/obj/**" ],
+          "cwd": "src"
+        }
+      ],
+      "dest": "obj/api"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [ "**/*.yml" ],
+        "cwd": "obj/"
+      },
+      {
+        "files": [ "articles/**/*.md", "*.md", "toc.yml" ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [ "articles/images/**"]
+      }
+    ],
+    "overwrite": "specs/*.md",
+    "globalMetadata": {
+      "_appTitle": "docfx seed website"
+    },
+    "dest": "_site"
+  }
+}
