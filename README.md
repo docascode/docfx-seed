@@ -18,7 +18,7 @@ As a prerequisite, you will need to install [DNVM](http://docs.asp.net/en/latest
   > For Windows, the nuget config file is  **%AppData%\NuGet\NuGet.config**.
 
   > For Linux/OSX, the nuget config file is **~/.config/NuGet/NuGet.config**.
-  ```
+
 * `dnu commands install docfx` to install `docfx` as a command
 * Run `docfx` under current repo! Website will be generated under `_site` folder.
 * Run any web hosting tool to host `_site` folder, e.g. `docfx serve _site`.
