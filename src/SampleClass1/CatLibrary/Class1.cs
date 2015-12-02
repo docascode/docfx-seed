@@ -150,6 +150,7 @@ namespace CatLibrary
         /// <param name="ownType">Type come from class define.</param>
         /// <param name="anotherOwnType">Type come from class define.</param>
         /// <param name="cheat">Hint whether this cat has cheat mode.</param>
+        /// <exception cref="ArgumentException">This is an argument exception</exception>
         [Conditional("Debug")]
         public void Jump(T ownType, K anotherOwnType, ref bool cheat)
         {
