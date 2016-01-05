@@ -4,4 +4,4 @@
   href: articles/
   homepage: articles/docfx_getting_started.md
 - name: API Documentation
-  href: api/
+  href: obj/api/
