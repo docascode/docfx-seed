@@ -19,7 +19,7 @@
         "dest": "api"
       },
       {
-        "files": [ "articles/**/*.md", "*.md", "toc.yml" ]
+        "files": [ "articles/**/*.md", "*.md", "toc.yml", "restapi/**" ]
       }
     ],
     "resource": [
