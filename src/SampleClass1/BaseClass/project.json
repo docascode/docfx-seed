@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "configurations": {
+    "Debug": {
+      "buildOptions": {
+        "define": ["DEBUG", "TRACE"]
+      }
+    },
+    "Release": {
+      "buildOptions": {
+        "define": ["RELEASE", "TRACE"],
+        "optimize": true
+      }
+    }
+  },
+  "frameworks": {
+    "net451": {}
+  }
+}

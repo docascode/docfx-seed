@@ -3,7 +3,7 @@
     {
       "src": [
         {
-          "files": [ "**/*.sln" ],
+          "files": [ "**/project.json" ],
           "exclude": [ "**/bin/**", "**/obj/**" ],
           "cwd": "src"
         }

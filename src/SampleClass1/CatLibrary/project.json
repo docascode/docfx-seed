@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "configurations": {
+    "Debug": {
+      "buildOptions": {
+        "allowUnsafe": true,
+        "define": ["DEBUG", "TRACE"]
+      }
+    },
+    "Release": {
+      "buildOptions": {
+        "allowUnsafe": true,
+        "define": ["RELEASE", "TRACE"],
+        "optimize": true
+      }
+    }
+  },
+  "frameworks": {
+    "net451": {}
+  }
+}
