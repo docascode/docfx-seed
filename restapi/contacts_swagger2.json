@@ -324,7 +324,7 @@
         ],
         "responses": {
           "204": {
-            "description": "No Content. Indicates success.",
+            "description": "No Content. Indicates success."
           }
         },
         "description": "<p><i>Required scope</i>: <b><i>Contacts.Write</i></b></p>",
@@ -429,7 +429,7 @@
         ],
         "responses": {
           "204": {
-            "description": "No Content. Indicates success. No response body is returned.",
+            "description": "No Content. Indicates success. No response body is returned."
           }
         },
         "description": "<p><i>Required scope</i>: <b><i>Contacts.Write</i></b></p>",
@@ -461,7 +461,7 @@
         ],
         "responses": {
           "204": {
-            "description": "No Content. Indicates success. N response body is returned.",
+            "description": "No Content. Indicates success. N response body is returned."
           }
         },
         "description": "<p><i>Required scope</i>: <b><i>Contacts.Write</i></b></p>",
