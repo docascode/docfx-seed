@@ -228,7 +228,8 @@
                 ],
                 "summary": "Add a new pet to the store",
                 "tags": [
-                    "pet"
+                    "pet",
+                    "store"
                 ]
             },
             "put": {
@@ -985,7 +986,7 @@
                 },
                 "summary": "Updated user",
                 "tags": [
-                    "user"
+                    "unknown"
                 ]
             }
         }
@@ -1012,7 +1013,8 @@
     "swagger": "2.0",
     "tags": [
         {
-            "description": "Everything about your Pets",
+            "description": "Everything about your **Pets**",
+            "x-bookmark-id": "EverythingAboutYourPets",
             "externalDocs": {
                 "description": "Find out more",
                 "url": "http://swagger.io"
