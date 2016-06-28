@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
   
@@ -8,7 +8,7 @@
     <title>C# Coding Standards | docfx seed website </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="C# Coding Standards | docfx seed website ">
-    <meta name="generator" content="docfx 1.0.0.0">
+    <meta name="generator" content="docfx 1.4.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -94,12 +94,12 @@
 </ul>
 <h2 id="highlights-of-coding-standards">Highlights of Coding Standards</h2>
 <p>This section is not intended to give a summary of all the coding standards that enabled by our customized StyleCop, but to give a highlight of some rules one will possibly meet in daily coding life. It also provides some recommended however not mandatory(which means not enabled in StyleCop) coding standards.</p>
-<h3 id="file-layout-recommended-">File Layout (Recommended)</h3>
+<h3 id="file-layout-recommended">File Layout (Recommended)</h3>
 <p>Only one public class is allowed per file.</p>
 <p>The file name is derived from the class name.</p>
 <pre><code>    Class   : Observer
     Filename: Observer.cs
-</code></pre><h3 id="class-definition-order-mandatory-">Class Definition Order (Mandatory)</h3>
+</code></pre><h3 id="class-definition-order-mandatory">Class Definition Order (Mandatory)</h3>
 <p>The class definition contains class members in the following order, from <em>less</em> restricted scope (public) to <em>more</em> restrictive (private):</p>
 <ul>
 <li>Nested types, e.g. classes, enum, struct, etc.</li>
@@ -112,7 +112,7 @@
 </ul>
 </li>
 </ul>
-<h3 id="naming-mandatory-">Naming (Mandatory)</h3>
+<h3 id="naming-mandatory">Naming (Mandatory)</h3>
 <ul>
 <li><p><strong>DO</strong> use PascalCasing for all public member, type, and namespace names consisting of multiple words.</p>
 <pre><code>  PropertyDescriptor
@@ -137,7 +137,7 @@
 <li><p><strong>DO</strong> have <strong>&quot;Async&quot;</strong> explicitly in the Async method name to notice people how to use it properly</p>
 </li>
 </ul>
-<h3 id="formatting-mandatory-">Formatting (Mandatory)</h3>
+<h3 id="formatting-mandatory">Formatting (Mandatory)</h3>
 <ul>
 <li><strong>DO</strong> use spaces over tabs, and always show all spaces/tabs in IDE</li>
 </ul>
