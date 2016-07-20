@@ -1,6 +1,8 @@
 ###############
 #    folder   #
 ###############
+/themes/
+/docfx/
 /**/DROP/
 /**/TEMP/
 /**/packages/
