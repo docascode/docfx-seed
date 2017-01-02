@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
   
@@ -8,7 +8,7 @@
     <title>C# Coding Standards | docfx seed website </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="C# Coding Standards | docfx seed website ">
-    <meta name="generator" content="docfx 1.4.0.0">
+    <meta name="generator" content="docfx 1.0.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -31,6 +31,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
+              
               <a class="navbar-brand" href="../index.html">
                 <img id="logo" class="svg" src="../logo.svg" alt="">
               </a>
@@ -72,7 +73,6 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-              <a href="https://github.com/docascode/docfx-seed/blob/master/articles/csharp_coding_standards.md/#L1" class="btn btn-primary pull-right mobile-hide">Improve this Doc</a>
               <h1 id="c-coding-standards">C# Coding Standards</h1>
               
 <h2 id="introduction">Introduction</h2>
@@ -181,23 +181,19 @@
 <p>Unit test method names must be descriptive about <em>what is being tested, under what conditions, and what the expectations are</em>. Pascal casing and underscores can be used to improve readability. The following test names are correct:</p>
 <pre><code class="lang-cs">PublicApiArgumentsShouldHaveNotNullAnnotation
 Public_api_arguments_should_have_not_null_annotation
-</code></pre>
-<p>The following test names are incorrect:</p>
+</code></pre><p>The following test names are incorrect:</p>
 <pre><code class="lang-cs">Test1
 Constructor
 FormatString
 GetData
-</code></pre>
-<h4 id="unit-test-structure">Unit test structure</h4>
+</code></pre><h4 id="unit-test-structure">Unit test structure</h4>
 <p>The contents of every unit test should be split into three distinct stages, optionally separated by these comments:</p>
 <pre><code class="lang-cs">// Arrange
 // Act
 // Assert
-</code></pre>
-<p>The crucial thing here is the <code>Act</code> stage is exactly one statement. That one statement is nothing more than a call to the one method that you are trying to test. keeping that one statement as simple as possible is also very important. For example, this is not ideal:</p>
+</code></pre><p>The crucial thing here is the <code>Act</code> stage is exactly one statement. That one statement is nothing more than a call to the one method that you are trying to test. keeping that one statement as simple as possible is also very important. For example, this is not ideal:</p>
 <pre><code class="lang-cs">int result = myObj.CallSomeMethod(GetComplexParam1(), GetComplexParam2(), GetComplexParam3());
-</code></pre>
-<p>This style is not recomended because way too many things can go wrong in this one statement. All the <code>GetComplexParamN()</code> calls can throw for a variety of reasons unrelated to the test itself. It is thus unclear to someone running into a problem why the failure occured.</p>
+</code></pre><p>This style is not recomended because way too many things can go wrong in this one statement. All the <code>GetComplexParamN()</code> calls can throw for a variety of reasons unrelated to the test itself. It is thus unclear to someone running into a problem why the failure occured.</p>
 <p>The ideal pattern is to move the complex parameter building into the `Arrange section:</p>
 <pre><code class="lang-cs">// Arrange
 P1 p1 = GetComplexParam1();
@@ -209,8 +205,7 @@ int result = myObj.CallSomeMethod(p1, p2, p3);
 
 // Assert
 Assert.AreEqual(1234, result);
-</code></pre>
-<p>Now the only reason the line with <code>CallSomeMethod()</code> can fail is if the method itself blew up.</p>
+</code></pre><p>Now the only reason the line with <code>CallSomeMethod()</code> can fail is if the method itself blew up.</p>
 <h4 id="testing-exception-messages">Testing exception messages</h4>
 <p>In general testing the specific exception message in a unit test is important. This ensures that the exact desired exception is what is being tested rather than a different exception of the same type. In order to verify the exact exception it is important to verify the message.</p>
 <pre><code class="lang-cs">var ex = Assert.Throws&lt;InvalidOperationException&gt;(
@@ -218,8 +213,7 @@ Assert.AreEqual(1234, result);
 Assert.Equal(
     &quot;1234&quot;,
     ex.Message);
-</code></pre>
-<h4 id="use-xunit-net-s-plethora-of-built-in-assertions">Use xUnit.net&#39;s plethora of built-in assertions</h4>
+</code></pre><h4 id="use-xunitnets-plethora-of-built-in-assertions">Use xUnit.net&#39;s plethora of built-in assertions</h4>
 <p>xUnit.net includes many kinds of assertions – please use the most appropriate one for your test. This will make the tests a lot more readable and also allow the test runner report the best possible errors (whether it&#39;s local or the CI machine). For example, these are bad:</p>
 <pre><code class="lang-cs">Assert.Equal(true, someBool);
 
@@ -234,16 +228,14 @@ for (int i = 0; i &lt; list1.Length; i++) {
             list2[i],
             StringComparison.OrdinalIgnoreCase));
 }
-</code></pre>
-<p>These are good:</p>
+</code></pre><p>These are good:</p>
 <pre><code class="lang-cs">Assert.True(someBool);
 
 Assert.Equal(&quot;abc123&quot;, someString);
 
 // built-in collection assertions!
 Assert.Equal(list1, list2, StringComparer.OrdinalIgnoreCase);
-</code></pre>
-<h4 id="parallel-tests">Parallel tests</h4>
+</code></pre><h4 id="parallel-tests">Parallel tests</h4>
 <p>By default all unit test assemblies should run in parallel mode, which is the default. Unit tests shouldn&#39;t depend on any shared state, and so should generally be runnable in parallel. If the tests fail in parallel, the first thing to do is to figure out why; do not just disable parallel tests!</p>
 <p>For functional tests it is reasonable to disable parallel tests.</p>
 
@@ -251,9 +243,18 @@ Assert.Equal(list1, list2, StringComparer.OrdinalIgnoreCase);
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
-            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
-            </nav>
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/docascode/docfx-seed/blob/master/articles/csharp_coding_standards.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
           </div>
         </div>
       </div>
@@ -275,6 +276,5 @@ Assert.Equal(list1, list2, StringComparer.OrdinalIgnoreCase);
     <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
     <script type="text/javascript" src="../styles/docfx.js"></script>
     <script type="text/javascript" src="../styles/main.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
   </body>
 </html>
