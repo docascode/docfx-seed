@@ -2,7 +2,7 @@ environment:
   op_build_user: "OpenPublishBuild"
   op_build_user_email: "vscopbld@microsoft.com"
   access_token:
-    secure: /Nev6k2dmQVTpTR4AE9PrvwSzTNAM8tAJzja2SIZXctqEj89/QxjrnVZ0P1v1Do4
+    secure: t74btP1uJUIXa65tTiQGWAZvYmJSNjSruJV90exd++sAjrKpo7f6e4LGJJLGIKb3
 
 before_build:
   - ps: |
