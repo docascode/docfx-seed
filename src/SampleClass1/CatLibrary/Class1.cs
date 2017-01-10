@@ -166,6 +166,7 @@ namespace CatLibrary
 
         /// <summary>
         /// It's an <c>unsafe</c> method.
+        /// As you see, <paramref name="catName"/> is a <b>pointer</b>, so we need to add <languageKeyword>unsafe</languageKeyword> keyword.
         /// </summary>
         /// <param name="catName">Thie represent for cat name length.</param>
         /// <param name="parameters">Optional parameters.</param>
