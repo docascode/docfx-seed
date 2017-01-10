@@ -89,6 +89,21 @@
     "title": "Class ExplicitLayoutClass | docfx seed website",
     "keywords": "Class ExplicitLayoutClass Inheritance System.Object ExplicitLayoutClass Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace :Microsoft.DevDiv Assembly :BaseClassForTestClass1.dll Syntax public class ExplicitLayoutClass"
   },
+  "toc.html": {
+    "href": "toc.html",
+    "title": "Table of Content",
+    "keywords": ""
+  },
+  "articles/toc.html": {
+    "href": "articles/toc.html",
+    "title": "Table of Content",
+    "keywords": ""
+  },
+  "restapi/toc.html": {
+    "href": "restapi/toc.html",
+    "title": "Table of Content",
+    "keywords": ""
+  },
   "api/Microsoft.DevDiv.html": {
     "href": "api/Microsoft.DevDiv.html",
     "title": "Namespace Microsoft.DevDiv | docfx seed website",
@@ -156,21 +171,6 @@
   },
   "api/toc.html": {
     "href": "api/toc.html",
-    "title": "Table of Content",
-    "keywords": ""
-  },
-  "toc.html": {
-    "href": "toc.html",
-    "title": "Table of Content",
-    "keywords": ""
-  },
-  "articles/toc.html": {
-    "href": "articles/toc.html",
-    "title": "Table of Content",
-    "keywords": ""
-  },
-  "restapi/toc.html": {
-    "href": "restapi/toc.html",
     "title": "Table of Content",
     "keywords": ""
   }
