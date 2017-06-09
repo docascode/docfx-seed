@@ -20,8 +20,11 @@ after_build:
   - ps: |
         if(-Not $env:APPVEYOR_PULL_REQUEST_TITLE)
         {
-            nuget.commandline install docfx.console -Version 2.19.0-alpha-0669-g8b267c0 -Source https://www.myget.org/F/docfx-dev/api/v3/index.json
+            nuget install docfx.console -Version 2.19.0-alpha-0669-g8b267c0 -Source https://www.myget.org/F/docfx-dev/api/v3/index.json
             docfx.console.2.19.0-alpha-0669-g8b267c0\tools\docfx docfx.json
+            if ($exitCode -ne 0){
+              exit 1
+            }
             git config --global credential.helper store
             Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
             git config --global user.email $env:op_build_user_email
