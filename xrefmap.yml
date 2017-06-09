@@ -23,6 +23,7 @@ references:
   fullName: CatLibrary.Cat<T, K>.Cat()
   fullName.vb: CatLibrary.Cat(Of T, K).Cat()
   nameWithType: Cat<T, K>.Cat()
+  nameWithType.vb: Cat(Of T, K).Cat()
 - uid: CatLibrary.Cat`2.#ctor(`0)
   name: Cat(T)
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2__ctor__0_
@@ -30,6 +31,7 @@ references:
   fullName: CatLibrary.Cat<T, K>.Cat(T)
   fullName.vb: CatLibrary.Cat(Of T, K).Cat(T)
   nameWithType: Cat<T, K>.Cat(T)
+  nameWithType.vb: Cat(Of T, K).Cat(T)
 - uid: CatLibrary.Cat`2.#ctor(System.String,System.Int32@,System.String,System.Boolean)
   name: Cat(String, out Int32, String, Boolean)
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2__ctor_System_String_System_Int32__System_String_System_Boolean_
@@ -38,13 +40,15 @@ references:
   fullName: CatLibrary.Cat<T, K>.Cat(System.String, out System.Int32, System.String, System.Boolean)
   fullName.vb: CatLibrary.Cat(Of T, K).Cat(System.String, ByRef System.Int32, System.String, System.Boolean)
   nameWithType: Cat<T, K>.Cat(String, out Int32, String, Boolean)
-  nameWithType.vb: Cat(String, ByRef Int32, String, Boolean)
+  nameWithType.vb: Cat(Of T, K).Cat(String, ByRef Int32, String, Boolean)
 - uid: CatLibrary.Cat`2.#ctor*
   name: Cat
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2__ctor_
   commentId: Overload:CatLibrary.Cat`2.#ctor
-  fullName: CatLibrary.Cat.Cat
-  nameWithType: Cat.Cat
+  fullName: CatLibrary.Cat<T, K>.Cat
+  fullName.vb: CatLibrary.Cat(Of T, K).Cat
+  nameWithType: Cat<T, K>.Cat
+  nameWithType.vb: Cat(Of T, K).Cat
 - uid: CatLibrary.Cat`2.Age
   name: Age
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_Age
@@ -52,6 +56,7 @@ references:
   fullName: CatLibrary.Cat<T, K>.Age
   fullName.vb: CatLibrary.Cat(Of T, K).Age
   nameWithType: Cat<T, K>.Age
+  nameWithType.vb: Cat(Of T, K).Age
 - uid: CatLibrary.Cat`2.Age*
   name: Age
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_Age_
@@ -67,12 +72,15 @@ references:
   fullName: CatLibrary.Cat<T, K>.CalculateFood(System.DateTime)
   fullName.vb: CatLibrary.Cat(Of T, K).CalculateFood(System.DateTime)
   nameWithType: Cat<T, K>.CalculateFood(DateTime)
+  nameWithType.vb: Cat(Of T, K).CalculateFood(DateTime)
 - uid: CatLibrary.Cat`2.CalculateFood*
   name: CalculateFood
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_CalculateFood_
   commentId: Overload:CatLibrary.Cat`2.CalculateFood
-  fullName: CatLibrary.Cat.CalculateFood
-  nameWithType: Cat.CalculateFood
+  fullName: CatLibrary.Cat<T, K>.CalculateFood
+  fullName.vb: CatLibrary.Cat(Of T, K).CalculateFood
+  nameWithType: Cat<T, K>.CalculateFood
+  nameWithType.vb: Cat(Of T, K).CalculateFood
 - uid: CatLibrary.Cat`2.CatLibrary#IAnimal#Eat
   name: IAnimal.Eat()
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_CatLibrary_IAnimal_Eat
@@ -81,7 +89,7 @@ references:
   fullName: CatLibrary.Cat<T, K>.CatLibrary.IAnimal.Eat()
   fullName.vb: CatLibrary.Cat(Of T, K).CatLibrary.IAnimal.Eat()
   nameWithType: Cat<T, K>.IAnimal.Eat()
-  nameWithType.vb: CatLibrary.IAnimal.Eat()
+  nameWithType.vb: Cat(Of T, K).CatLibrary.IAnimal.Eat()
 - uid: CatLibrary.Cat`2.CatLibrary#IAnimal#Eat(System.String)
   name: IAnimal.Eat(String)
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_CatLibrary_IAnimal_Eat_System_String_
@@ -90,15 +98,16 @@ references:
   fullName: CatLibrary.Cat<T, K>.CatLibrary.IAnimal.Eat(System.String)
   fullName.vb: CatLibrary.Cat(Of T, K).CatLibrary.IAnimal.Eat(System.String)
   nameWithType: Cat<T, K>.IAnimal.Eat(String)
-  nameWithType.vb: CatLibrary.IAnimal.Eat(String)
+  nameWithType.vb: Cat(Of T, K).CatLibrary.IAnimal.Eat(String)
 - uid: CatLibrary.Cat`2.CatLibrary#IAnimal#Eat*
   name: IAnimal.Eat
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_CatLibrary_IAnimal_Eat_
   commentId: Overload:CatLibrary.Cat`2.CatLibrary#IAnimal#Eat
   name.vb: CatLibrary.IAnimal.Eat
-  fullName: CatLibrary.Cat.CatLibrary.IAnimal.Eat
-  nameWithType: Cat.IAnimal.Eat
-  nameWithType.vb: Cat.CatLibrary.IAnimal.Eat
+  fullName: CatLibrary.Cat<T, K>.CatLibrary.IAnimal.Eat
+  fullName.vb: CatLibrary.Cat(Of T, K).CatLibrary.IAnimal.Eat
+  nameWithType: Cat<T, K>.IAnimal.Eat
+  nameWithType.vb: Cat(Of T, K).CatLibrary.IAnimal.Eat
 - uid: CatLibrary.Cat`2.CatLibrary#IAnimal#Eat``1(``0)
   name: IAnimal.Eat<Tool>(Tool)
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_CatLibrary_IAnimal_Eat__1___0_
@@ -107,7 +116,7 @@ references:
   fullName: CatLibrary.Cat<T, K>.CatLibrary.IAnimal.Eat<Tool>(Tool)
   fullName.vb: CatLibrary.Cat(Of T, K).CatLibrary.IAnimal.Eat(Of Tool)(Tool)
   nameWithType: Cat<T, K>.IAnimal.Eat<Tool>(Tool)
-  nameWithType.vb: CatLibrary.IAnimal.Eat(Of Tool)(Tool)
+  nameWithType.vb: Cat(Of T, K).CatLibrary.IAnimal.Eat(Of Tool)(Tool)
 - uid: CatLibrary.Cat`2.CatLibrary#IAnimal#Item(System.Int32)
   name: IAnimal.Item[Int32]
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_CatLibrary_IAnimal_Item_System_Int32_
@@ -116,7 +125,7 @@ references:
   fullName: CatLibrary.Cat<T, K>.CatLibrary.IAnimal.Item[System.Int32]
   fullName.vb: CatLibrary.Cat(Of T, K).CatLibrary.IAnimal.Item(System.Int32)
   nameWithType: Cat<T, K>.IAnimal.Item[Int32]
-  nameWithType.vb: CatLibrary.IAnimal.Item(Int32)
+  nameWithType.vb: Cat(Of T, K).CatLibrary.IAnimal.Item(Int32)
 - uid: CatLibrary.Cat`2.CatLibrary#IAnimal#Item*
   name: IAnimal.Item
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_CatLibrary_IAnimal_Item_
@@ -134,7 +143,7 @@ references:
   fullName: CatLibrary.Cat<T, K>.CatLibrary.ICat.eat
   fullName.vb: CatLibrary.Cat(Of T, K).CatLibrary.ICat.eat
   nameWithType: Cat<T, K>.ICat.eat
-  nameWithType.vb: CatLibrary.ICat.eat
+  nameWithType.vb: Cat(Of T, K).CatLibrary.ICat.eat
 - uid: CatLibrary.Cat`2.Equals(System.Object)
   name: Equals(Object)
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_Equals_System_Object_
@@ -142,12 +151,15 @@ references:
   fullName: CatLibrary.Cat<T, K>.Equals(System.Object)
   fullName.vb: CatLibrary.Cat(Of T, K).Equals(System.Object)
   nameWithType: Cat<T, K>.Equals(Object)
+  nameWithType.vb: Cat(Of T, K).Equals(Object)
 - uid: CatLibrary.Cat`2.Equals*
   name: Equals
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_Equals_
   commentId: Overload:CatLibrary.Cat`2.Equals
-  fullName: CatLibrary.Cat.Equals
-  nameWithType: Cat.Equals
+  fullName: CatLibrary.Cat<T, K>.Equals
+  fullName.vb: CatLibrary.Cat(Of T, K).Equals
+  nameWithType: Cat<T, K>.Equals
+  nameWithType.vb: Cat(Of T, K).Equals
 - uid: CatLibrary.Cat`2.GetTailLength(System.Int32*,System.Object[])
   name: GetTailLength(Int32*, Object[])
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_GetTailLength_System_Int32__System_Object___
@@ -156,13 +168,15 @@ references:
   fullName: CatLibrary.Cat<T, K>.GetTailLength(System.Int32*, System.Object[])
   fullName.vb: CatLibrary.Cat(Of T, K).GetTailLength(System.Int32*, System.Object())
   nameWithType: Cat<T, K>.GetTailLength(Int32*, Object[])
-  nameWithType.vb: GetTailLength(Int32*, Object())
+  nameWithType.vb: Cat(Of T, K).GetTailLength(Int32*, Object())
 - uid: CatLibrary.Cat`2.GetTailLength*
   name: GetTailLength
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_GetTailLength_
   commentId: Overload:CatLibrary.Cat`2.GetTailLength
-  fullName: CatLibrary.Cat.GetTailLength
-  nameWithType: Cat.GetTailLength
+  fullName: CatLibrary.Cat<T, K>.GetTailLength
+  fullName.vb: CatLibrary.Cat(Of T, K).GetTailLength
+  nameWithType: Cat<T, K>.GetTailLength
+  nameWithType.vb: Cat(Of T, K).GetTailLength
 - uid: CatLibrary.Cat`2.isHealthy
   name: isHealthy
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_isHealthy
@@ -170,6 +184,7 @@ references:
   fullName: CatLibrary.Cat<T, K>.isHealthy
   fullName.vb: CatLibrary.Cat(Of T, K).isHealthy
   nameWithType: Cat<T, K>.isHealthy
+  nameWithType.vb: Cat(Of T, K).isHealthy
 - uid: CatLibrary.Cat`2.Item(System.String)
   name: Item[String]
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_Item_System_String_
@@ -178,7 +193,7 @@ references:
   fullName: CatLibrary.Cat<T, K>.Item[System.String]
   fullName.vb: CatLibrary.Cat(Of T, K).Item(System.String)
   nameWithType: Cat<T, K>.Item[String]
-  nameWithType.vb: Item(String)
+  nameWithType.vb: Cat(Of T, K).Item(String)
 - uid: CatLibrary.Cat`2.Item*
   name: Item
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_Item_
@@ -195,13 +210,15 @@ references:
   fullName: CatLibrary.Cat<T, K>.Jump(T, K, ref System.Boolean)
   fullName.vb: CatLibrary.Cat(Of T, K).Jump(T, K, ByRef System.Boolean)
   nameWithType: Cat<T, K>.Jump(T, K, ref Boolean)
-  nameWithType.vb: Jump(T, K, ByRef Boolean)
+  nameWithType.vb: Cat(Of T, K).Jump(T, K, ByRef Boolean)
 - uid: CatLibrary.Cat`2.Jump*
   name: Jump
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_Jump_
   commentId: Overload:CatLibrary.Cat`2.Jump
-  fullName: CatLibrary.Cat.Jump
-  nameWithType: Cat.Jump
+  fullName: CatLibrary.Cat<T, K>.Jump
+  fullName.vb: CatLibrary.Cat(Of T, K).Jump
+  nameWithType: Cat<T, K>.Jump
+  nameWithType.vb: Cat(Of T, K).Jump
 - uid: CatLibrary.Cat`2.Name
   name: Name
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_Name
@@ -209,6 +226,7 @@ references:
   fullName: CatLibrary.Cat<T, K>.Name
   fullName.vb: CatLibrary.Cat(Of T, K).Name
   nameWithType: Cat<T, K>.Name
+  nameWithType.vb: Cat(Of T, K).Name
 - uid: CatLibrary.Cat`2.Name*
   name: Name
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_Name_
@@ -225,13 +243,15 @@ references:
   fullName: CatLibrary.Cat<T, K>.Addition(CatLibrary.Cat<T, K>, System.Int32)
   fullName.vb: CatLibrary.Cat(Of T, K).Addition(CatLibrary.Cat(Of T, K), System.Int32)
   nameWithType: Cat<T, K>.Addition(Cat<T, K>, Int32)
-  nameWithType.vb: Addition(Cat(Of T, K), Int32)
+  nameWithType.vb: Cat(Of T, K).Addition(Cat(Of T, K), Int32)
 - uid: CatLibrary.Cat`2.op_Addition*
   name: Addition
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_op_Addition_
   commentId: Overload:CatLibrary.Cat`2.op_Addition
-  fullName: CatLibrary.Cat.Addition
-  nameWithType: Cat.Addition
+  fullName: CatLibrary.Cat<T, K>.Addition
+  fullName.vb: CatLibrary.Cat(Of T, K).Addition
+  nameWithType: Cat<T, K>.Addition
+  nameWithType.vb: Cat(Of T, K).Addition
 - uid: CatLibrary.Cat`2.op_Explicit(CatLibrary.Cat{`0,`1})~CatLibrary.Tom
   name: Explicit(Cat<T, K> to Tom)
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_op_Explicit_CatLibrary_Cat__0__1___CatLibrary_Tom
@@ -240,16 +260,16 @@ references:
   fullName: CatLibrary.Cat<T, K>.Explicit(CatLibrary.Cat<T, K> to CatLibrary.Tom)
   fullName.vb: CatLibrary.Cat(Of T, K).Narrowing(CatLibrary.Cat(Of T, K) to CatLibrary.Tom)
   nameWithType: Cat<T, K>.Explicit(Cat<T, K> to Tom)
-  nameWithType.vb: Narrowing(Cat(Of T, K) to Tom)
+  nameWithType.vb: Cat(Of T, K).Narrowing(Cat(Of T, K) to Tom)
 - uid: CatLibrary.Cat`2.op_Explicit*
   name: Explicit
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_op_Explicit_
   commentId: Overload:CatLibrary.Cat`2.op_Explicit
   name.vb: Narrowing
-  fullName: CatLibrary.Cat.Explicit
-  fullName.vb: CatLibrary.Cat.Narrowing
-  nameWithType: Cat.Explicit
-  nameWithType.vb: Cat.Narrowing
+  fullName: CatLibrary.Cat<T, K>.Explicit
+  fullName.vb: CatLibrary.Cat(Of T, K).Narrowing
+  nameWithType: Cat<T, K>.Explicit
+  nameWithType.vb: Cat(Of T, K).Narrowing
 - uid: CatLibrary.Cat`2.op_Subtraction(CatLibrary.Cat{`0,`1},System.Int32)
   name: Subtraction(Cat<T, K>, Int32)
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_op_Subtraction_CatLibrary_Cat__0__1__System_Int32_
@@ -258,13 +278,15 @@ references:
   fullName: CatLibrary.Cat<T, K>.Subtraction(CatLibrary.Cat<T, K>, System.Int32)
   fullName.vb: CatLibrary.Cat(Of T, K).Subtraction(CatLibrary.Cat(Of T, K), System.Int32)
   nameWithType: Cat<T, K>.Subtraction(Cat<T, K>, Int32)
-  nameWithType.vb: Subtraction(Cat(Of T, K), Int32)
+  nameWithType.vb: Cat(Of T, K).Subtraction(Cat(Of T, K), Int32)
 - uid: CatLibrary.Cat`2.op_Subtraction*
   name: Subtraction
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_op_Subtraction_
   commentId: Overload:CatLibrary.Cat`2.op_Subtraction
-  fullName: CatLibrary.Cat.Subtraction
-  nameWithType: Cat.Subtraction
+  fullName: CatLibrary.Cat<T, K>.Subtraction
+  fullName.vb: CatLibrary.Cat(Of T, K).Subtraction
+  nameWithType: Cat<T, K>.Subtraction
+  nameWithType.vb: Cat(Of T, K).Subtraction
 - uid: CatLibrary.Cat`2.ownEat
   name: ownEat
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_ownEat
@@ -272,6 +294,7 @@ references:
   fullName: CatLibrary.Cat<T, K>.ownEat
   fullName.vb: CatLibrary.Cat(Of T, K).ownEat
   nameWithType: Cat<T, K>.ownEat
+  nameWithType.vb: Cat(Of T, K).ownEat
 - uid: CatLibrary.CatException`1
   name: CatException<T>
   href: api/CatLibrary.CatException-1.html
@@ -331,7 +354,7 @@ references:
   fullName: CatLibrary.IAnimal.Eat<Tool>(Tool)
   fullName.vb: CatLibrary.IAnimal.Eat(Of Tool)(Tool)
   nameWithType: IAnimal.Eat<Tool>(Tool)
-  nameWithType.vb: Eat(Of Tool)(Tool)
+  nameWithType.vb: IAnimal.Eat(Of Tool)(Tool)
 - uid: CatLibrary.IAnimal.Item(System.Int32)
   name: Item[Int32]
   href: api/CatLibrary.IAnimal.html#CatLibrary_IAnimal_Item_System_Int32_
@@ -340,7 +363,7 @@ references:
   fullName: CatLibrary.IAnimal.Item[System.Int32]
   fullName.vb: CatLibrary.IAnimal.Item(System.Int32)
   nameWithType: IAnimal.Item[Int32]
-  nameWithType.vb: Item(Int32)
+  nameWithType.vb: IAnimal.Item(Int32)
 - uid: CatLibrary.IAnimal.Item*
   name: Item
   href: api/CatLibrary.IAnimal.html#CatLibrary_IAnimal_Item_
@@ -430,7 +453,7 @@ references:
   fullName: CatLibrary.Tom.TomMethod(CatLibrary.Complex<CatLibrary.TomFromBaseClass, CatLibrary.TomFromBaseClass>, System.Tuple<System.String, CatLibrary.Tom>)
   fullName.vb: CatLibrary.Tom.TomMethod(CatLibrary.Complex(Of CatLibrary.TomFromBaseClass, CatLibrary.TomFromBaseClass), System.Tuple(Of System.String, CatLibrary.Tom))
   nameWithType: Tom.TomMethod(Complex<TomFromBaseClass, TomFromBaseClass>, Tuple<String, Tom>)
-  nameWithType.vb: TomMethod(Complex(Of TomFromBaseClass, TomFromBaseClass), Tuple(Of String, Tom))
+  nameWithType.vb: Tom.TomMethod(Complex(Of TomFromBaseClass, TomFromBaseClass), Tuple(Of String, Tom))
 - uid: CatLibrary.Tom.TomMethod*
   name: TomMethod
   href: api/CatLibrary.Tom.html#CatLibrary_Tom_TomMethod_
@@ -559,7 +582,7 @@ references:
   fullName: Microsoft.DevDiv.ContainersRefType.ContainersRefTypeNonRefMethod(System.Object[])
   fullName.vb: Microsoft.DevDiv.ContainersRefType.ContainersRefTypeNonRefMethod(System.Object())
   nameWithType: ContainersRefType.ContainersRefTypeNonRefMethod(Object[])
-  nameWithType.vb: ContainersRefTypeNonRefMethod(Object())
+  nameWithType.vb: ContainersRefType.ContainersRefTypeNonRefMethod(Object())
 - uid: Microsoft.DevDiv.ContainersRefType.ContainersRefTypeNonRefMethod*
   name: ContainersRefTypeNonRefMethod
   href: api/Microsoft.DevDiv.ContainersRefType.html#Microsoft_DevDiv_ContainersRefType_ContainersRefTypeNonRefMethod_
