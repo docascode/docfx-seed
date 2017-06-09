@@ -20,10 +20,10 @@ after_build:
   - ps: |
         if(-Not $env:APPVEYOR_PULL_REQUEST_TITLE)
         {
-            nuget install docfx.console -Version 1.0.0 -Source https://www.myget.org/F/docfx-test/api/v3/index.json
-            docfx.console.1.0.0\tools\docfx docfx.json
-            if ($exitCode -ne 0){
-              throw [System.Exception] "docfx build failed with exit code $exitCode."
+            & nuget install docfx.console -Version 1.0.0 -Source https://www.myget.org/F/docfx-test/api/v3/index.json
+            & docfx.console.1.0.0\tools\docfx docfx.json
+            if ($lastexitcode -ne 0){
+              throw [System.Exception] "docfx build failed with exit code $lastexitcode."
             }
             git config --global credential.helper store
             Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
