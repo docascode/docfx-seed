@@ -1,13 +1,23 @@
 {
+  "api/Microsoft.DevDiv.ContainersRefType.ColorType.html": {
+    "href": "api/Microsoft.DevDiv.ContainersRefType.ColorType.html",
+    "title": "Enum ContainersRefType.ColorType | docfx seed website",
+    "keywords": "Enum ContainersRefType.ColorType Enumeration ColorType Namespace : Microsoft.DevDiv Assembly : BaseClassForTestClass1.dll Syntax public enum ColorType Fields Name Description Blue blue Red red Yellow yellow"
+  },
+  "api/Microsoft.DevDiv.ContainersRefType.ContainersRefTypeChildInterface.html": {
+    "href": "api/Microsoft.DevDiv.ContainersRefType.ContainersRefTypeChildInterface.html",
+    "title": "Interface ContainersRefType.ContainersRefTypeChildInterface | docfx seed website",
+    "keywords": "Interface ContainersRefType.ContainersRefTypeChildInterface Namespace : Microsoft.DevDiv Assembly : BaseClassForTestClass1.dll Syntax public interface ContainersRefTypeChildInterface"
+  },
   "api/Microsoft.DevDiv.ContainersRefType.html": {
     "href": "api/Microsoft.DevDiv.ContainersRefType.html",
     "title": "Struct ContainersRefType | docfx seed website",
     "keywords": "Struct ContainersRefType Struct ContainersRefType Inherited Members System.ValueType.Equals(System.Object) System.ValueType.GetHashCode() System.ValueType.ToString() System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetType() Namespace : Microsoft.DevDiv Assembly : BaseClassForTestClass1.dll Syntax public struct ContainersRefType Fields | Improve this Doc View Source ColorCount ColorCount Declaration public long ColorCount Field Value Type Description System.Int64 Properties | Improve this Doc View Source GetColorCount GetColorCount Declaration public long GetColorCount { get; } Property Value Type Description System.Int64 Methods | Improve this Doc View Source ContainersRefTypeNonRefMethod(Object[]) ContainersRefTypeNonRefMethod array Declaration public static int ContainersRefTypeNonRefMethod(params object[] parmsArray) Parameters Type Name Description System.Object [] parmsArray Returns Type Description System.Int32 Events | Improve this Doc View Source ContainersRefTypeEventHandler Declaration public event EventHandler ContainersRefTypeEventHandler Event Type Type Description System.EventHandler"
   },
-  "api/MRef.Demo.Enumeration.ColorType.html": {
-    "href": "api/MRef.Demo.Enumeration.ColorType.html",
-    "title": "Enum ColorType | docfx seed website",
-    "keywords": "Enum ColorType Enumeration ColorType Namespace : MRef.Demo.Enumeration Assembly : CatLibrary.dll Syntax public enum ColorType Remarks Red/Blue/Yellow can become all color you want. Fields Name Description Blue blue like river Red this color is red Yellow yellow comes from desert"
+  "api/Microsoft.DevDiv.ExplicitLayoutClass.html": {
+    "href": "api/Microsoft.DevDiv.ExplicitLayoutClass.html",
+    "title": "Class ExplicitLayoutClass | docfx seed website",
+    "keywords": "Class ExplicitLayoutClass Inheritance System.Object ExplicitLayoutClass Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Microsoft.DevDiv Assembly : BaseClassForTestClass1.dll Syntax public class ExplicitLayoutClass"
   },
   "api/MRef.Demo.Enumeration.html": {
     "href": "api/MRef.Demo.Enumeration.html",
@@ -34,16 +44,6 @@
     "title": "Interface IAnimal | docfx seed website",
     "keywords": "Interface IAnimal This is basic interface of all animal. Welcome to the Animal world! Namespace : CatLibrary Assembly : CatLibrary.dll Syntax public interface IAnimal Remarks THIS is remarks overridden in MARKDWON file Properties | Improve this Doc View Source Item[Int32] Return specific number animal's name. Declaration string this[int index] { get; } Parameters Type Name Description System.Int32 index Animal number. Property Value Type Description System.String Animal name. | Improve this Doc View Source Name Name of Animal. Declaration string Name { get; } Property Value Type Description System.String Methods | Improve this Doc View Source Eat() Animal's eat method. Declaration void Eat() | Improve this Doc View Source Eat(String) Feed the animal with some food Declaration void Eat(string food) Parameters Type Name Description System.String food Food to eat | Improve this Doc View Source Eat<Tool>(Tool) Overload method of eat. This define the animal eat by which tool. Declaration void Eat<Tool>(Tool tool)where Tool : class Parameters Type Name Description Tool tool Tool name. Type Parameters Name Description Tool It's a class type."
   },
-  "api/CatLibrary.ICat.html": {
-    "href": "api/CatLibrary.ICat.html",
-    "title": "Interface ICat | docfx seed website",
-    "keywords": "Interface ICat Cat's interface Inherited Members IAnimal.Name IAnimal.Item[Int32] IAnimal.Eat() IAnimal.Eat<Tool>(Tool) IAnimal.Eat(String) Namespace : CatLibrary Assembly : CatLibrary.dll Syntax public interface ICat : IAnimal Events | Improve this Doc View Source eat eat event of cat. Every cat must implement this event. Declaration event EventHandler eat Event Type Type Description System.EventHandler Extension Methods ICatExtension.Sleep(ICat, Int64) ICatExtension.Play(ICat, String)"
-  },
-  "api/CatLibrary.ICatExtension.html": {
-    "href": "api/CatLibrary.ICatExtension.html",
-    "title": "Class ICatExtension | docfx seed website",
-    "keywords": "Class ICatExtension It's the class that contains ICat interface's extension method. This class must be public and static . Also it shouldn't be a geneic class Inheritance System.Object ICatExtension Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : CatLibrary Assembly : CatLibrary.dll Syntax public static class ICatExtension Methods | Improve this Doc View Source Play(ICat, String) Extension method to let cat play Declaration public static void Play(this ICat icat, string toy) Parameters Type Name Description ICat icat Cat System.String toy Something to play | Improve this Doc View Source Sleep(ICat, Int64) Extension method hint that how long the cat can sleep. Declaration public static void Sleep(this ICat icat, long hours) Parameters Type Name Description ICat icat The type will be extended. System.Int64 hours The length of sleep."
-  },
   "api/CatLibrary.MRefDelegate-3.html": {
     "href": "api/CatLibrary.MRefDelegate-3.html",
     "title": "Delegate MRefDelegate<K, T, L> | docfx seed website",
@@ -64,20 +64,20 @@
     "title": "Class ContainersRefType.ContainersRefTypeChild | docfx seed website",
     "keywords": "Class ContainersRefType.ContainersRefTypeChild Inheritance System.Object ContainersRefType.ContainersRefTypeChild Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Microsoft.DevDiv Assembly : BaseClassForTestClass1.dll Syntax public class ContainersRefTypeChild"
   },
-  "api/Microsoft.DevDiv.ContainersRefType.ContainersRefTypeChildInterface.html": {
-    "href": "api/Microsoft.DevDiv.ContainersRefType.ContainersRefTypeChildInterface.html",
-    "title": "Interface ContainersRefType.ContainersRefTypeChildInterface | docfx seed website",
-    "keywords": "Interface ContainersRefType.ContainersRefTypeChildInterface Namespace : Microsoft.DevDiv Assembly : BaseClassForTestClass1.dll Syntax public interface ContainersRefTypeChildInterface"
-  },
-  "api/Microsoft.DevDiv.ExplicitLayoutClass.html": {
-    "href": "api/Microsoft.DevDiv.ExplicitLayoutClass.html",
-    "title": "Class ExplicitLayoutClass | docfx seed website",
-    "keywords": "Class ExplicitLayoutClass Inheritance System.Object ExplicitLayoutClass Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Microsoft.DevDiv Assembly : BaseClassForTestClass1.dll Syntax public class ExplicitLayoutClass"
+  "api/Microsoft.DevDiv.ContainersRefType.ContainersRefTypeDelegate.html": {
+    "href": "api/Microsoft.DevDiv.ContainersRefType.ContainersRefTypeDelegate.html",
+    "title": "Delegate ContainersRefType.ContainersRefTypeDelegate | docfx seed website",
+    "keywords": "Delegate ContainersRefType.ContainersRefTypeDelegate Delegate ContainersRefTypeDelegate Namespace : Microsoft.DevDiv Assembly : BaseClassForTestClass1.dll Syntax public delegate void ContainersRefTypeDelegate();"
   },
   "api/Microsoft.DevDiv.html": {
     "href": "api/Microsoft.DevDiv.html",
     "title": "Namespace Microsoft.DevDiv | docfx seed website",
     "keywords": "Namespace Microsoft.DevDiv Classes ContainersRefType.ContainersRefTypeChild ExplicitLayoutClass Structs ContainersRefType Struct ContainersRefType Interfaces ContainersRefType.ContainersRefTypeChildInterface Enums ContainersRefType.ColorType Enumeration ColorType Delegates ContainersRefType.ContainersRefTypeDelegate Delegate ContainersRefTypeDelegate"
+  },
+  "api/MRef.Demo.Enumeration.ColorType.html": {
+    "href": "api/MRef.Demo.Enumeration.ColorType.html",
+    "title": "Enum ColorType | docfx seed website",
+    "keywords": "Enum ColorType Enumeration ColorType Namespace : MRef.Demo.Enumeration Assembly : CatLibrary.dll Syntax public enum ColorType Remarks Red/Blue/Yellow can become all color you want. Fields Name Description Blue blue like river Red this color is red Yellow yellow comes from desert"
   },
   "api/VBTestClass1.BaseClass1.html": {
     "href": "api/VBTestClass1.BaseClass1.html",
@@ -89,25 +89,25 @@
     "title": "Class Class1 | docfx seed website",
     "keywords": "Class Class1 This is summary from vb class... Inheritance System.Object BaseClass1 Class1 Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.Finalize() System.Object.MemberwiseClone() Namespace : VBTestClass1 Assembly : VBTestClass1.dll Syntax public class Class1 : BaseClass1 Fields | Improve this Doc View Source ValueClass This is a Value type Declaration public Class1 ValueClass Field Value Type Description Class1 Properties | Improve this Doc View Source Keyword Declaration [Obsolete(\"This member is obsolete.\", true)] public CounterSampleCalculator Keyword { get; } Property Value Type Description System.Diagnostics.CounterSampleCalculator Methods | Improve this Doc View Source Value(String) This is a Function Declaration public int Value(string name) Parameters Type Name Description System.String name Name as the String value Returns Type Description System.Int32 Returns Ahooo | Improve this Doc View Source WithDeclarationKeyword(CounterSampleCalculator) What is Sub ? Declaration public override DateTime WithDeclarationKeyword(CounterSampleCalculator keyword) Parameters Type Name Description System.Diagnostics.CounterSampleCalculator keyword Returns Type Description System.DateTime Overrides BaseClass1.WithDeclarationKeyword(CounterSampleCalculator)"
   },
+  "api/CatLibrary.ICatExtension.html": {
+    "href": "api/CatLibrary.ICatExtension.html",
+    "title": "Class ICatExtension | docfx seed website",
+    "keywords": "Class ICatExtension It's the class that contains ICat interface's extension method. This class must be public and static . Also it shouldn't be a geneic class Inheritance System.Object ICatExtension Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : CatLibrary Assembly : CatLibrary.dll Syntax public static class ICatExtension Methods | Improve this Doc View Source Play(ICat, String) Extension method to let cat play Declaration public static void Play(this ICat icat, string toy) Parameters Type Name Description ICat icat Cat System.String toy Something to play | Improve this Doc View Source Sleep(ICat, Int64) Extension method hint that how long the cat can sleep. Declaration public static void Sleep(this ICat icat, long hours) Parameters Type Name Description ICat icat The type will be extended. System.Int64 hours The length of sleep."
+  },
+  "api/CatLibrary.MRefNormalDelegate.html": {
+    "href": "api/CatLibrary.MRefNormalDelegate.html",
+    "title": "Delegate MRefNormalDelegate | docfx seed website",
+    "keywords": "Delegate MRefNormalDelegate Delegate in the namespace Namespace : CatLibrary Assembly : CatLibrary.dll Syntax public delegate void MRefNormalDelegate(List<string> pics, out string name); Parameters Type Name Description System.Collections.Generic.List < System.String > pics a name list of pictures. System.String name give out the needed name."
+  },
   "api/CatLibrary.TomFromBaseClass.html": {
     "href": "api/CatLibrary.TomFromBaseClass.html",
     "title": "Class TomFromBaseClass | docfx seed website",
     "keywords": "Class TomFromBaseClass TomFromBaseClass inherits from @ Inheritance System.Object Tom TomFromBaseClass Inherited Members Tom.TomMethod(Complex<TomFromBaseClass, TomFromBaseClass>, Tuple<String, Tom>) System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : CatLibrary Assembly : CatLibrary.dll Syntax public class TomFromBaseClass : Tom Constructors | Improve this Doc View Source TomFromBaseClass(Int32) This is a #ctor with parameter Declaration public TomFromBaseClass(int k) Parameters Type Name Description System.Int32 k"
   },
-  "api/Microsoft.DevDiv.ContainersRefType.ColorType.html": {
-    "href": "api/Microsoft.DevDiv.ContainersRefType.ColorType.html",
-    "title": "Enum ContainersRefType.ColorType | docfx seed website",
-    "keywords": "Enum ContainersRefType.ColorType Enumeration ColorType Namespace : Microsoft.DevDiv Assembly : BaseClassForTestClass1.dll Syntax public enum ColorType Fields Name Description Blue blue Red red Yellow yellow"
-  },
-  "api/Microsoft.DevDiv.ContainersRefType.ContainersRefTypeDelegate.html": {
-    "href": "api/Microsoft.DevDiv.ContainersRefType.ContainersRefTypeDelegate.html",
-    "title": "Delegate ContainersRefType.ContainersRefTypeDelegate | docfx seed website",
-    "keywords": "Delegate ContainersRefType.ContainersRefTypeDelegate Delegate ContainersRefTypeDelegate Namespace : Microsoft.DevDiv Assembly : BaseClassForTestClass1.dll Syntax public delegate void ContainersRefTypeDelegate();"
-  },
   "README.html": {
     "href": "README.html",
     "title": "docfx-seed | docfx seed website",
-    "keywords": "docfx-seed Description This is a sample docfx documentation project. It contains .NET source code and markdown files. docfx.json is the configuration file for running docfx . docfx will generate a static website as similar to http://docascode.github.io/docfx-seed/index.html How to run Under Windows Install from Nuget Install Nuget.exe Create a folder, e.g. C:\\Tools\\docfx , under the folder, nuget install docfx.console Open command line: batch set PATH=%PATH%;C:\\Tools\\docfx\\docfx.console\\tools docfx docfx-seed\\docfx.json --serve #### Install from choco Install chocolatey Open command line: batch choco install docfx docfx docfx-seed\\docfx.json --serve Cross platform Install Mono Install Nuget.exe sh > mono nuget.exe install docfx.console > mono docfx.console/tools/docfx.exe docfx-seed/docfx.json Further information about docfx docfx is a tool to generate documentation towards .NET source code and markdown files. Please refer to docfx to get start. The docfx website itself is generated by docfx !"
+    "keywords": "docfx-seed Description This is a sample docfx documentation project. It contains .NET source code and markdown files. docfx.json is the configuration file for running docfx . docfx will generate a static website as similar to http://docascode.github.io/docfx-seed/index.html How to run Under Windows Download and unzip docfx.zip to run docfx.exe directly! Run docfx under current repo! Website will be generated under _site folder. Run any web hosting tool to host _site folder, e.g. docfx serve _site . Cross platform (TO BE ADDED) and use dnx As a prerequisite, you will need to install DNVM and DNX . ###Quick Start * dnvm upgrade to get the latest dnvm. * Add feed https://www.myget.org/F/aspnetrelease/api/v2/ to Nuget.config > For Windows, the nuget config file is %AppData%\\NuGet\\NuGet.config . > For Linux/OSX, the nuget config file is ~/.config/NuGet/NuGet.config . * dnu commands install docfx to install docfx as a command * Run docfx under current repo! Website will be generated under _site folder. * Run any web hosting tool to host _site folder, e.g. docfx serve _site . Further information about docfx docfx is a tool to generate documentation towards .NET source code and markdown files. Please refer to docfx to get start. The docfx website itself is generated by docfx !"
   },
   "index.html": {
     "href": "index.html",
@@ -149,9 +149,9 @@
     "title": "Delegate FakeDelegate<T> | docfx seed website",
     "keywords": "Delegate FakeDelegate<T> Fake delegate Namespace : CatLibrary Assembly : CatLibrary.dll Syntax public delegate int FakeDelegate<T>(long num, string name, params object[] scores); Parameters Type Name Description System.Int64 num Fake para System.String name Fake para System.Object [] scores Optional Parameter. Returns Type Description System.Int32 Return a fake number to confuse you. Type Parameters Name Description T Fake para"
   },
-  "api/CatLibrary.MRefNormalDelegate.html": {
-    "href": "api/CatLibrary.MRefNormalDelegate.html",
-    "title": "Delegate MRefNormalDelegate | docfx seed website",
-    "keywords": "Delegate MRefNormalDelegate Delegate in the namespace Namespace : CatLibrary Assembly : CatLibrary.dll Syntax public delegate void MRefNormalDelegate(List<string> pics, out string name); Parameters Type Name Description System.Collections.Generic.List < System.String > pics a name list of pictures. System.String name give out the needed name."
+  "api/CatLibrary.ICat.html": {
+    "href": "api/CatLibrary.ICat.html",
+    "title": "Interface ICat | docfx seed website",
+    "keywords": "Interface ICat Cat's interface Inherited Members IAnimal.Name IAnimal.Item[Int32] IAnimal.Eat() IAnimal.Eat<Tool>(Tool) IAnimal.Eat(String) Namespace : CatLibrary Assembly : CatLibrary.dll Syntax public interface ICat : IAnimal Events | Improve this Doc View Source eat eat event of cat. Every cat must implement this event. Declaration event EventHandler eat Event Type Type Description System.EventHandler Extension Methods ICatExtension.Sleep(ICat, Int64) ICatExtension.Play(ICat, String)"
   }
 }
