@@ -20,8 +20,6 @@ $(function () {
   renderFooter();
   renderLogo();
 
-  breakText();
-
   window.refresh = function (article) {
     // Update markup result
     if (typeof article == 'undefined' || typeof article.content == 'undefined')
@@ -32,16 +30,6 @@ $(function () {
     renderTables();
     renderAlerts();
     renderAffix();
-  }
-
-  function breakText() {
-    $(".xref").addClass("text-break");
-    var texts = $(".text-break");
-    texts.each(function () {
-      $(this).text(function (index, text) {
-        return util.breakText(text);
-      })
-    });
   }
 
   // Styling for tables in conceptual documents using Bootstrap.
