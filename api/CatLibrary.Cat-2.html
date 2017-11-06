@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class Cat&lt;T, K&gt;
    | docfx seed website ">
-    <meta name="generator" content="docfx 2.18.4.0">
+    <meta name="generator" content="docfx 2.26.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     <meta property="docfx:rel" content="../">
     
   </head>
@@ -78,12 +79,12 @@
             <article class="content wrap" id="_content" data-uid="CatLibrary.Cat`2">
   
   
-  <h1 id="CatLibrary_Cat_2" data-uid="CatLibrary.Cat`2">Class Cat&lt;T, K&gt;
+  <h1 id="CatLibrary_Cat_2" data-uid="CatLibrary.Cat`2" class="text-break">Class Cat&lt;T, K&gt;
   </h1>
-  <div class="markdown level0 summary"><p>Here&#39;s main class of this <em>Demo</em>.</p>
+  <div class="markdown level0 summary"><p>Here&apos;s main class of this <em>Demo</em>.</p>
 <p>You can see mostly type of article within this class and you for more detail, please see the remarks.</p>
 <p>
-<p>this class is a template class. It has two Generic parameter. they are: <span class="typeparamref">T</span> and <span class="typeparamref">K</span>.</p>
+<p>this class is a template class. It has two Generic parameter. they are: <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> and <code data-dev-comment-type="typeparamref" class="typeparamref">K</code>.</p>
 <p>The extension method of this class can refer to <a class="xref" href="CatLibrary.ICatExtension.html">ICatExtension</a> class</p>
 </div>
   <div class="markdown level0 conceptual"><p>This is a class talking about <a href="https://en.wikipedia.org/wiki/Cat">CAT</a>.</p>
@@ -96,6 +97,11 @@ This is a CAT class</p>
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">Cat&lt;T, K&gt;</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="CatLibrary.ICat.html">ICat</a></div>
+    <div><a class="xref" href="CatLibrary.IAnimal.html">IAnimal</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -141,7 +147,7 @@ public class Cat&lt;T, K&gt; : ICat, IAnimal where T : class, new ()where K : st
       </tr>
       <tr>
         <td><span class="parametername">K</span></td>
-        <td><p>This type is a struct type, class type can&#39;t be used for this parameter.</p>
+        <td><p>This type is a struct type, class type can&apos;t be used for this parameter.</p>
 </td>
       </tr>
     </tbody>
@@ -150,14 +156,14 @@ public class Cat&lt;T, K&gt; : ICat, IAnimal where T : class, new ()where K : st
   <div class="markdown level0 remarks"><p><em>THIS</em> is remarks overridden in <em>MARKDWON</em> file</p>
 </div>
   <h5 id="CatLibrary_Cat_2_examples"><strong>Examples</strong></h5>
-  <p>Here&#39;s example of how to create an instance of this class. As T is limited with <code>class</code> and K is limited with <code>struct</code>.</p>
+  <p>Here&apos;s example of how to create an instance of this class. As T is limited with <code>class</code> and K is limited with <code>struct</code>.</p>
 <pre><code class="c#">    var a = new Cat(object, int)();
     int catNumber = new int();
     unsafe
     {
         a.GetFeetLength(catNumber);
     }</code></pre>
-<p>As you see, here we bring in <strong>pointer</strong> so we need to add <span class="languagekeyword">unsafe</span> keyword.</p>
+<p>As you see, here we bring in <strong>pointer</strong> so we need to add <code data-dev-comment-type="languageKeyword" class="languageKeyword">unsafe</code> keyword.</p>
 
   <h3 id="constructors">Constructors
   </h3>
@@ -220,7 +226,7 @@ public class Cat&lt;T, K&gt; : ICat, IAnimal where T : class, new ()where K : st
   </span>
   <a id="CatLibrary_Cat_2__ctor_" data-uid="CatLibrary.Cat`2.#ctor*"></a>
   <h4 id="CatLibrary_Cat_2__ctor_System_String_System_Int32__System_String_System_Boolean_" data-uid="CatLibrary.Cat`2.#ctor(System.String,System.Int32@,System.String,System.Boolean)">Cat(String, out Int32, String, Boolean)</h4>
-  <div class="markdown level1 summary"><p>It&#39;s a complex constructor. The parameter will have some attributes.</p>
+  <div class="markdown level1 summary"><p>It&apos;s a complex constructor. The parameter will have some attributes.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -240,25 +246,25 @@ public class Cat&lt;T, K&gt; : ICat, IAnimal where T : class, new ()where K : st
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">nickName</span></td>
-        <td><p>it&#39;s string type.</p>
+        <td><p>it&apos;s string type.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">age</span></td>
-        <td><p>It&#39;s an out and ref parameter.</p>
+        <td><p>It&apos;s an out and ref parameter.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">realName</span></td>
-        <td><p>It&#39;s an out paramter.</p>
+        <td><p>It&apos;s an out paramter.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">isHealthy</span></td>
-        <td><p>It&#39;s an in parameter.</p>
+        <td><p>It&apos;s an in parameter.</p>
 </td>
       </tr>
     </tbody>
@@ -308,7 +314,7 @@ public bool isHealthy</code></pre>
   </span>
   <a id="CatLibrary_Cat_2_Age_" data-uid="CatLibrary.Cat`2.Age*"></a>
   <h4 id="CatLibrary_Cat_2_Age" data-uid="CatLibrary.Cat`2.Age">Age</h4>
-  <div class="markdown level1 summary"><p>Hint cat&#39;s age.</p>
+  <div class="markdown level1 summary"><p>Hint cat&apos;s age.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -359,7 +365,7 @@ public bool isHealthy</code></pre>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">a</span></td>
-        <td><p>Cat&#39;s name.</p>
+        <td><p>Cat&apos;s name.</p>
 </td>
       </tr>
     </tbody>
@@ -375,7 +381,7 @@ public bool isHealthy</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><p>Cat&#39;s number.</p>
+        <td><p>Cat&apos;s number.</p>
 </td>
       </tr>
     </tbody>
@@ -411,8 +417,6 @@ public bool isHealthy</code></pre>
       </tr>
     </tbody>
   </table>
-  <h5 class="implements">Implements</h5>
-      <div><a class="xref" href="CatLibrary.IAnimal.html#CatLibrary_IAnimal_Name">IAnimal.Name</a></div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
@@ -543,8 +547,8 @@ public bool isHealthy</code></pre>
   </span>
   <a id="CatLibrary_Cat_2_GetTailLength_" data-uid="CatLibrary.Cat`2.GetTailLength*"></a>
   <h4 id="CatLibrary_Cat_2_GetTailLength_System_Int32__System_Object___" data-uid="CatLibrary.Cat`2.GetTailLength(System.Int32*,System.Object[])">GetTailLength(Int32*, Object[])</h4>
-  <div class="markdown level1 summary"><p>It&#39;s an <code>unsafe</code> method.
-As you see, <span class="paramref">catName</span> is a <strong>pointer</strong>, so we need to add <span class="languagekeyword">unsafe</span> keyword.</p>
+  <div class="markdown level1 summary"><p>It&apos;s an <code>unsafe</code> method.
+As you see, <code data-dev-comment-type="paramref" class="paramref">catName</code> is a <strong>pointer</strong>, so we need to add <code data-dev-comment-type="languageKeyword" class="languageKeyword">unsafe</code> keyword.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -586,7 +590,7 @@ As you see, <span class="paramref">catName</span> is a <strong>pointer</strong>,
     <tbody>
       <tr>
         <td><span class="xref">System.Int64</span></td>
-        <td><p>Return cat tail&#39;s length.</p>
+        <td><p>Return cat tail&apos;s length.</p>
 </td>
       </tr>
     </tbody>
@@ -866,8 +870,6 @@ public void Jump(T ownType, K anotherOwnType, ref bool cheat)</code></pre>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">void IAnimal.Eat()</code></pre>
   </div>
-  <h5 class="implements">Implements</h5>
-      <div><a class="xref" href="CatLibrary.IAnimal.html#CatLibrary_IAnimal_Eat">IAnimal.Eat()</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/docascode/docfx-seed/new/superyyrrzz-patch-1/apiSpec/new?filename=CatLibrary_Cat_2_CatLibrary_IAnimal_Eat_System_String_.md&amp;value=---%0Auid%3A%20CatLibrary.Cat%602.CatLibrary%23IAnimal%23Eat(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -902,8 +904,6 @@ public void Jump(T ownType, K anotherOwnType, ref bool cheat)</code></pre>
       </tr>
     </tbody>
   </table>
-  <h5 class="implements">Implements</h5>
-      <div><a class="xref" href="CatLibrary.IAnimal.html#CatLibrary_IAnimal_Eat_System_String_">IAnimal.Eat(String)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/docascode/docfx-seed/new/superyyrrzz-patch-1/apiSpec/new?filename=CatLibrary_Cat_2_CatLibrary_IAnimal_Eat__1___0_.md&amp;value=---%0Auid%3A%20CatLibrary.Cat%602.CatLibrary%23IAnimal%23Eat%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -954,8 +954,6 @@ public void Jump(T ownType, K anotherOwnType, ref bool cheat)</code></pre>
       </tr>
     </tbody>
   </table>
-  <h5 class="implements">Implements</h5>
-      <div><a class="xref" href="CatLibrary.IAnimal.html#CatLibrary_IAnimal_Eat__1___0_">IAnimal.Eat&lt;Tool&gt;(Tool)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/docascode/docfx-seed/new/superyyrrzz-patch-1/apiSpec/new?filename=CatLibrary_Cat_2_CatLibrary_IAnimal_Item_System_Int32_.md&amp;value=---%0Auid%3A%20CatLibrary.Cat%602.CatLibrary%23IAnimal%23Item(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -985,7 +983,7 @@ public void Jump(T ownType, K anotherOwnType, ref bool cheat)</code></pre>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">a</span></td>
-        <td><p>Cat&#39;s number.</p>
+        <td><p>Cat&apos;s number.</p>
 </td>
       </tr>
     </tbody>
@@ -1001,13 +999,11 @@ public void Jump(T ownType, K anotherOwnType, ref bool cheat)</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>Cat&#39;s name.</p>
+        <td><p>Cat&apos;s name.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="implements">Implements</h5>
-      <div><a class="xref" href="CatLibrary.IAnimal.html#CatLibrary_IAnimal_Item_System_Int32_">IAnimal.Item[Int32]</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/docascode/docfx-seed/new/superyyrrzz-patch-1/apiSpec/new?filename=CatLibrary_Cat_2_CatLibrary_ICat_eat.md&amp;value=---%0Auid%3A%20CatLibrary.Cat%602.CatLibrary%23ICat%23eat%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -1038,8 +1034,13 @@ public void Jump(T ownType, K anotherOwnType, ref bool cheat)</code></pre>
       </tr>
     </tbody>
   </table>
-  <h5 class="implements">Implements</h5>
-      <div><a class="xref" href="CatLibrary.ICat.html#CatLibrary_ICat_eat">ICat.eat</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="CatLibrary.ICat.html">ICat</a>
+  </div>
+  <div>
+      <a class="xref" href="CatLibrary.IAnimal.html">IAnimal</a>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="CatLibrary.ICatExtension.html#CatLibrary_ICatExtension_Sleep_CatLibrary_ICat_System_Int64_">ICatExtension.Sleep(ICat, Int64)</a>
