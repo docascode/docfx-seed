@@ -5,7 +5,7 @@
         {
           "files": [ "**/*.sln", "src/DotnetNew/*.csproj" ],
           "exclude": [ "**/bin/**", "**/obj/**" ],
-          "cwd": "src"
+          "src": "src"
         }
       ],
       "dest": "obj/api"
@@ -15,7 +15,7 @@
     "content": [
       {
         "files": [ "**/*.yml" ],
-        "cwd": "obj/api",
+        "src": "obj/api",
         "dest": "api"
       },
       {
