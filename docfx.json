@@ -32,6 +32,7 @@
       "_appTitle": "docfx seed website",
       "_enableSearch": true
     },
-    "dest": "_site"
+    "dest": "_site",
+    "xrefService": [ "https://xref.docs.microsoft.com/query?uid={uid}" ]
   }
 }
