@@ -7,10 +7,13 @@ environment:
 before_build:
   - ps: >-
         $output= [string](test/msbuildlocaterrepro.net461/test/msbuildlocaterrepro.exe)
+        
         Write-Host $output
-        if ($output -eq "0")
-        {
+        
+        if ($output -eq "0"){
+        
           throw;
+          
         }
   - ps: |
         if(-Not $env:APPVEYOR_PULL_REQUEST_TITLE)
