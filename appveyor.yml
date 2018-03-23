@@ -6,14 +6,19 @@ environment:
 
 before_build:
   - ps: |
-        vswhere -all
         if(-Not $env:APPVEYOR_PULL_REQUEST_TITLE)
         {
             git checkout $env:APPVEYOR_REPO_BRANCH -q
             choco install docfx -y
             # choco install nuget.commandline -y
         }
-
+  - ps: |
+        $output= [string](test/msbuildlocaterrepro.net461/test/msbuildlocaterrepro.exe)
+        Write-Host $output
+        if ($output -eq "0")
+        {
+          throw;
+        }
 build_script:
   - msbuild src/SampleClass1/SampleClass1.sln
 
