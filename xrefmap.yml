@@ -45,6 +45,7 @@ references:
   name: Cat
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2__ctor_
   commentId: Overload:CatLibrary.Cat`2.#ctor
+  isSpec: "True"
   fullName: CatLibrary.Cat<T, K>.Cat
   fullName.vb: CatLibrary.Cat(Of T, K).Cat
   nameWithType: Cat<T, K>.Cat
@@ -61,6 +62,7 @@ references:
   name: Age
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_Age_
   commentId: Overload:CatLibrary.Cat`2.Age
+  isSpec: "True"
   fullName: CatLibrary.Cat<T, K>.Age
   fullName.vb: CatLibrary.Cat(Of T, K).Age
   nameWithType: Cat<T, K>.Age
@@ -77,6 +79,7 @@ references:
   name: CalculateFood
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_CalculateFood_
   commentId: Overload:CatLibrary.Cat`2.CalculateFood
+  isSpec: "True"
   fullName: CatLibrary.Cat<T, K>.CalculateFood
   fullName.vb: CatLibrary.Cat(Of T, K).CalculateFood
   nameWithType: Cat<T, K>.CalculateFood
@@ -103,6 +106,7 @@ references:
   name: IAnimal.Eat
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_CatLibrary_IAnimal_Eat_
   commentId: Overload:CatLibrary.Cat`2.CatLibrary#IAnimal#Eat
+  isSpec: "True"
   name.vb: CatLibrary.IAnimal.Eat
   fullName: CatLibrary.Cat<T, K>.CatLibrary.IAnimal.Eat
   fullName.vb: CatLibrary.Cat(Of T, K).CatLibrary.IAnimal.Eat
@@ -130,6 +134,7 @@ references:
   name: IAnimal.Item
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_CatLibrary_IAnimal_Item_
   commentId: Overload:CatLibrary.Cat`2.CatLibrary#IAnimal#Item
+  isSpec: "True"
   name.vb: CatLibrary.IAnimal.Item
   fullName: CatLibrary.Cat<T, K>.CatLibrary.IAnimal.Item
   fullName.vb: CatLibrary.Cat(Of T, K).CatLibrary.IAnimal.Item
@@ -156,6 +161,7 @@ references:
   name: Equals
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_Equals_
   commentId: Overload:CatLibrary.Cat`2.Equals
+  isSpec: "True"
   fullName: CatLibrary.Cat<T, K>.Equals
   fullName.vb: CatLibrary.Cat(Of T, K).Equals
   nameWithType: Cat<T, K>.Equals
@@ -173,6 +179,7 @@ references:
   name: GetTailLength
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_GetTailLength_
   commentId: Overload:CatLibrary.Cat`2.GetTailLength
+  isSpec: "True"
   fullName: CatLibrary.Cat<T, K>.GetTailLength
   fullName.vb: CatLibrary.Cat(Of T, K).GetTailLength
   nameWithType: Cat<T, K>.GetTailLength
@@ -198,6 +205,7 @@ references:
   name: Item
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_Item_
   commentId: Overload:CatLibrary.Cat`2.Item
+  isSpec: "True"
   fullName: CatLibrary.Cat<T, K>.Item
   fullName.vb: CatLibrary.Cat(Of T, K).Item
   nameWithType: Cat<T, K>.Item
@@ -215,6 +223,7 @@ references:
   name: Jump
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_Jump_
   commentId: Overload:CatLibrary.Cat`2.Jump
+  isSpec: "True"
   fullName: CatLibrary.Cat<T, K>.Jump
   fullName.vb: CatLibrary.Cat(Of T, K).Jump
   nameWithType: Cat<T, K>.Jump
@@ -231,6 +240,7 @@ references:
   name: Name
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_Name_
   commentId: Overload:CatLibrary.Cat`2.Name
+  isSpec: "True"
   fullName: CatLibrary.Cat<T, K>.Name
   fullName.vb: CatLibrary.Cat(Of T, K).Name
   nameWithType: Cat<T, K>.Name
@@ -248,6 +258,7 @@ references:
   name: Addition
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_op_Addition_
   commentId: Overload:CatLibrary.Cat`2.op_Addition
+  isSpec: "True"
   fullName: CatLibrary.Cat<T, K>.Addition
   fullName.vb: CatLibrary.Cat(Of T, K).Addition
   nameWithType: Cat<T, K>.Addition
@@ -265,6 +276,7 @@ references:
   name: Explicit
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_op_Explicit_
   commentId: Overload:CatLibrary.Cat`2.op_Explicit
+  isSpec: "True"
   name.vb: Narrowing
   fullName: CatLibrary.Cat<T, K>.Explicit
   fullName.vb: CatLibrary.Cat(Of T, K).Narrowing
@@ -283,6 +295,7 @@ references:
   name: Subtraction
   href: api/CatLibrary.Cat-2.html#CatLibrary_Cat_2_op_Subtraction_
   commentId: Overload:CatLibrary.Cat`2.op_Subtraction
+  isSpec: "True"
   fullName: CatLibrary.Cat<T, K>.Subtraction
   fullName.vb: CatLibrary.Cat(Of T, K).Subtraction
   nameWithType: Cat<T, K>.Subtraction
@@ -344,6 +357,7 @@ references:
   name: Eat
   href: api/CatLibrary.IAnimal.html#CatLibrary_IAnimal_Eat_
   commentId: Overload:CatLibrary.IAnimal.Eat
+  isSpec: "True"
   fullName: CatLibrary.IAnimal.Eat
   nameWithType: IAnimal.Eat
 - uid: CatLibrary.IAnimal.Eat``1(``0)
@@ -368,6 +382,7 @@ references:
   name: Item
   href: api/CatLibrary.IAnimal.html#CatLibrary_IAnimal_Item_
   commentId: Overload:CatLibrary.IAnimal.Item
+  isSpec: "True"
   fullName: CatLibrary.IAnimal.Item
   nameWithType: IAnimal.Item
 - uid: CatLibrary.IAnimal.Name
@@ -380,6 +395,7 @@ references:
   name: Name
   href: api/CatLibrary.IAnimal.html#CatLibrary_IAnimal_Name_
   commentId: Overload:CatLibrary.IAnimal.Name
+  isSpec: "True"
   fullName: CatLibrary.IAnimal.Name
   nameWithType: IAnimal.Name
 - uid: CatLibrary.ICat
@@ -410,6 +426,7 @@ references:
   name: Play
   href: api/CatLibrary.ICatExtension.html#CatLibrary_ICatExtension_Play_
   commentId: Overload:CatLibrary.ICatExtension.Play
+  isSpec: "True"
   fullName: CatLibrary.ICatExtension.Play
   nameWithType: ICatExtension.Play
 - uid: CatLibrary.ICatExtension.Sleep(CatLibrary.ICat,System.Int64)
@@ -422,6 +439,7 @@ references:
   name: Sleep
   href: api/CatLibrary.ICatExtension.html#CatLibrary_ICatExtension_Sleep_
   commentId: Overload:CatLibrary.ICatExtension.Sleep
+  isSpec: "True"
   fullName: CatLibrary.ICatExtension.Sleep
   nameWithType: ICatExtension.Sleep
 - uid: CatLibrary.MRefDelegate`3
@@ -458,6 +476,7 @@ references:
   name: TomMethod
   href: api/CatLibrary.Tom.html#CatLibrary_Tom_TomMethod_
   commentId: Overload:CatLibrary.Tom.TomMethod
+  isSpec: "True"
   fullName: CatLibrary.Tom.TomMethod
   nameWithType: Tom.TomMethod
 - uid: CatLibrary.TomFromBaseClass
@@ -476,6 +495,7 @@ references:
   name: TomFromBaseClass
   href: api/CatLibrary.TomFromBaseClass.html#CatLibrary_TomFromBaseClass__ctor_
   commentId: Overload:CatLibrary.TomFromBaseClass.#ctor
+  isSpec: "True"
   fullName: CatLibrary.TomFromBaseClass.TomFromBaseClass
   nameWithType: TomFromBaseClass.TomFromBaseClass
 - uid: graph.windows.net/myorganization/Contacts/1.6
@@ -587,6 +607,7 @@ references:
   name: ContainersRefTypeNonRefMethod
   href: api/Microsoft.DevDiv.ContainersRefType.html#Microsoft_DevDiv_ContainersRefType_ContainersRefTypeNonRefMethod_
   commentId: Overload:Microsoft.DevDiv.ContainersRefType.ContainersRefTypeNonRefMethod
+  isSpec: "True"
   fullName: Microsoft.DevDiv.ContainersRefType.ContainersRefTypeNonRefMethod
   nameWithType: ContainersRefType.ContainersRefTypeNonRefMethod
 - uid: Microsoft.DevDiv.ContainersRefType.GetColorCount
@@ -599,6 +620,7 @@ references:
   name: GetColorCount
   href: api/Microsoft.DevDiv.ContainersRefType.html#Microsoft_DevDiv_ContainersRefType_GetColorCount_
   commentId: Overload:Microsoft.DevDiv.ContainersRefType.GetColorCount
+  isSpec: "True"
   fullName: Microsoft.DevDiv.ContainersRefType.GetColorCount
   nameWithType: ContainersRefType.GetColorCount
 - uid: Microsoft.DevDiv.ExplicitLayoutClass
@@ -731,6 +753,7 @@ references:
   name: WithDeclarationKeyword
   href: api/VBTestClass1.BaseClass1.html#VBTestClass1_BaseClass1_WithDeclarationKeyword_
   commentId: Overload:VBTestClass1.BaseClass1.WithDeclarationKeyword
+  isSpec: "True"
   fullName: VBTestClass1.BaseClass1.WithDeclarationKeyword
   nameWithType: BaseClass1.WithDeclarationKeyword
 - uid: VBTestClass1.Class1
@@ -749,6 +772,7 @@ references:
   name: Keyword
   href: api/VBTestClass1.Class1.html#VBTestClass1_Class1_Keyword_
   commentId: Overload:VBTestClass1.Class1.Keyword
+  isSpec: "True"
   fullName: VBTestClass1.Class1.Keyword
   nameWithType: Class1.Keyword
 - uid: VBTestClass1.Class1.Value(System.String)
@@ -761,6 +785,7 @@ references:
   name: Value
   href: api/VBTestClass1.Class1.html#VBTestClass1_Class1_Value_
   commentId: Overload:VBTestClass1.Class1.Value
+  isSpec: "True"
   fullName: VBTestClass1.Class1.Value
   nameWithType: Class1.Value
 - uid: VBTestClass1.Class1.ValueClass
@@ -779,5 +804,6 @@ references:
   name: WithDeclarationKeyword
   href: api/VBTestClass1.Class1.html#VBTestClass1_Class1_WithDeclarationKeyword_
   commentId: Overload:VBTestClass1.Class1.WithDeclarationKeyword
+  isSpec: "True"
   fullName: VBTestClass1.Class1.WithDeclarationKeyword
   nameWithType: Class1.WithDeclarationKeyword
