@@ -1,4 +1,4 @@
-﻿{
+{
   "metadata": [
     {
       "src": [
@@ -32,6 +32,7 @@
       "_appTitle": "docfx seed website",
       "_enableSearch": true
     },
+    "markdownEngine": "markdig",
     "dest": "_site",
     "xrefService": [ "https://xref.docs.microsoft.com/query?uid={uid}" ]
   }
