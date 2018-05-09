@@ -32,7 +32,7 @@
       "_appTitle": "docfx seed website",
       "_enableSearch": true
     },
-    "markdownEngine": "markdig",
+    "markdownEngineName": "markdig",
     "dest": "_site",
     "xrefService": [ "https://xref.docs.microsoft.com/query?uid={uid}" ]
   }
