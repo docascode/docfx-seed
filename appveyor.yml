@@ -4,6 +4,7 @@ environment:
   access_token:
     secure: t74btP1uJUIXa65tTiQGWAZvYmJSNjSruJV90exd++sAjrKpo7f6e4LGJJLGIKb3
 
+image: Visual Studio 2017
 before_build:
   - ps: |
         if(-Not $env:APPVEYOR_PULL_REQUEST_TITLE)
