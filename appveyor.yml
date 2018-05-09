@@ -5,18 +5,6 @@ environment:
     secure: t74btP1uJUIXa65tTiQGWAZvYmJSNjSruJV90exd++sAjrKpo7f6e4LGJJLGIKb3
 
 before_build:
-  - cmd: dotnet restore test/msbuildlocaterrepro.net461/msbuildlocaterrepro.csproj
-  - cmd: msbuild test/msbuildlocaterrepro.net461/msbuildlocaterrepro.csproj
-  - ps: >-
-        $output= [string](test/msbuildlocaterrepro.net461/bin/Debug/net461/msbuildlocaterrepro.exe)
-        
-        Write-Host $output
-        
-        if ($output -eq "0"){
-        
-          throw;
-          
-        }
   - ps: |
         if(-Not $env:APPVEYOR_PULL_REQUEST_TITLE)
         {
