@@ -16,7 +16,7 @@ steps:
 - powershell: |
     git clone https://github.com/docascode/docfx-seed.git -b gh-pages _origin_site -q
     Remove-Item _origin_site/* -Exclude _origin_site/.git -Recurse
-    Copy-Item _site _origin_site -Recurse -Force
+    Copy-Item _site/* _origin_site -Recurse -Force
     Set-Location _origin_site
     git add .
     git commit -m "Update documents" -q
