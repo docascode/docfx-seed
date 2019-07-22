@@ -13,6 +13,12 @@ steps:
       throw ("Error generating document")
     }
   displayName: "docfx build"
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    pathToPublish: _site
+    artifactName: site
+
 - powershell: |
     git clone https://github.com/docascode/docfx-seed.git -b gh-pages _origin_site -q
     Remove-Item _origin_site/* -Exclude _origin_site/.git -Recurse
