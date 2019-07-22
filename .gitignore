@@ -16,6 +16,7 @@
 artifacts/
 target/
 /**/_site/
+/**/_origin_site/
 .vscode/
 .vs/
 
