@@ -22,6 +22,7 @@ steps:
 - powershell: |
     git clone https://github.com/docascode/docfx-seed.git -b gh-pages _origin_site -q
     Remove-Item _origin_site/* -Exclude _origin_site/.git -Recurse
+    ls _site
     Copy-Item _site/* _origin_site -Recurse -Force
     Set-Location _origin_site
     git config core.safecrlf false # disable LF/CRLF check to avoid break Azure Pipelines
