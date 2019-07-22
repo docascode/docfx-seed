@@ -18,6 +18,7 @@ steps:
     Remove-Item _origin_site/* -Exclude _origin_site/.git -Recurse
     Copy-Item _site/* _origin_site -Recurse -Force
     Set-Location _origin_site
+    git config core.safecrlf false # disable LF/CRLF check to avoid break Azure Pipelines
     git add .
     git commit -m "Update documents" -q
     git -c http.extraheader="AUTHORIZATION: bearer $env:SYSTEM_ACCESSTOKEN" push origin gh-pages -q
