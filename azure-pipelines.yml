@@ -6,14 +6,14 @@ pool:
   vmImage: windows-2019
 
 steps:
-- displayName: docfx build
+- displayName: "docfx build"
   powershell: |
     choco install docfx -y
     docfx docfx.json -o _site
     if ($lastexitcode -ne 0){
       throw ("Error generating document")
     }
-- displayName: docfx publish
+- displayName: "docfx publish"
   powershell: |
     git clone https://github.com/docascode/docfx-seed.git -b gh-pages _origin_site -q
     Copy-Item _site _origin_site -Recurse -Force
