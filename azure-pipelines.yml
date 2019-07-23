@@ -20,13 +20,6 @@ steps:
     artifactName: site
 
 - powershell: |
-    function exec([string] $cmd) {
-      & ([scriptblock]::Create($cmd))
-        if ($lastexitcode -ne 0) {
-            throw ("Error")
-        }
-    }
-
     git clone https://github.com/docascode/docfx-seed.git -b gh-pages _origin_site -q
     Remove-Item _origin_site/* -Exclude _origin_site/.git -Recurse
     ls _site
@@ -37,7 +30,7 @@ steps:
     git config core.safecrlf false # disable LF/CRLF check to avoid break Azure Pipelines
     git add -A 2>$1
     echo "log before commit"
-    exec "git commit -m 'Update documents' -q"
+    $ "git commit -m 'Update documents' -q"
     echo "log after commit"
     exec "git -c http.extraheader='AUTHORIZATION: basic $env:BASIC_AUTH_TOKEN' push origin gh-pages -q 2>$1"
   displayName: "docfx publish"
