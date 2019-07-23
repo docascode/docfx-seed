@@ -25,8 +25,8 @@ steps:
     ls _site
     Copy-Item _site/* _origin_site -Recurse -Force
     Set-Location _origin_site
-    git config use.email "renzeyu@microsoft.com"
-    git config use.name "Renze Yu"
+    git config --global use.email "renzeyu@microsoft.com"
+    git config --global use.name "Renze Yu"
     git config core.safecrlf false # disable LF/CRLF check to avoid break Azure Pipelines
     git add -A 2>$1
     git commit -m "Update documents" -q 2>$1
