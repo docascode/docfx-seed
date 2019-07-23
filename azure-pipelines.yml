@@ -28,6 +28,7 @@ steps:
     git config core.safecrlf false # disable LF/CRLF check to avoid break Azure Pipelines
     git add -A 2>&1
     git commit -m "Update documents" -q
+    echo "log after commit"
     exec "git -c http.extraheader='AUTHORIZATION: basic $env:BASIC_AUTH_TOKEN' push origin gh-pages -q"
   displayName: "docfx publish"
   env:
