@@ -27,9 +27,9 @@ steps:
     Set-Location _origin_site
     git config core.safecrlf false # disable LF/CRLF check to avoid break Azure Pipelines
     git add -A 2>&1
-    git commit -m "Update documents" -q
+    git commit -m "Update documents" -q 2>&1
     echo "log after commit"
-    exec "git -c http.extraheader='AUTHORIZATION: basic $env:BASIC_AUTH_TOKEN' push origin gh-pages -q"
+    exec "git -c http.extraheader='AUTHORIZATION: basic $env:BASIC_AUTH_TOKEN' push origin gh-pages -q 2>&1"
   displayName: "docfx publish"
   env:
     BASIC_AUTH_TOKEN: $(BASIC_AUTH_TOKEN)
