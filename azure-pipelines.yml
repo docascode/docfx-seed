@@ -29,6 +29,7 @@ steps:
     git config --global use.name "Renze Yu"
     git config core.safecrlf false # disable LF/CRLF check to avoid break Azure Pipelines
     git add -A 2>$1
+    echo "log before commit"
     git commit -m "Update documents" -q 2>$1
     echo "log after commit"
     exec "git -c http.extraheader='AUTHORIZATION: basic $env:BASIC_AUTH_TOKEN' push origin gh-pages -q 2>$1"
