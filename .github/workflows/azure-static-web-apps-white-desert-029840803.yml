@@ -21,7 +21,7 @@ jobs:
       - name: Build Documentation
         uses: nikeee/docfx-action@v1.0.0
         with:
-          args: docs/docfx.json
+          args: docfx.json
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
